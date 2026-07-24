@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <title>Amany Portfolio</title>
+  </head>
+
+  <body class="bg-gray-50 text-gray-800">
+    <!-- Header -->
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+      <div
+        class="max-w-7xl mx-auto flex justify-between items-center px-8 py-5"
+      >
+        <h1 class="text-3xl font-bold text-blue-600">Amany's Portfolio</h1>
+
+        <nav>
+          <ul class="flex gap-8 font-medium">
+            <li>
+              <a href="#hero" class="hover:text-blue-600 duration-300">
+                Home
+              </a>
+            </li>
+
+            <li>
+              <a href="#about" class="hover:text-blue-600 duration-300">
+                About
+              </a>
+            </li>
+
+            <li>
+              <a href="#skills" class="hover:text-blue-600 duration-300">
+                Skills
+              </a>
+            </li>
+
+            <li>
+              <a href="#education" class="hover:text-blue-600 duration-300">
+                Education
+              </a>
+            </li>
+
+            <li>
+              <a href="#contact" class="hover:text-blue-600 duration-300">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+
+      <section
+        id="hero"
+        class="h-screen flex items-center justify-center bg-gradient-to-r from-blue-100 to-purple-100"
+      >
+        <div
+          class="max-w-6xl mx-auto px-6 flex flex-col-reverse md:flex-row items-center gap-10"
+        >
+          <div class="text-center md:text-left">
+            <h2 class="text-5xl font-bold leading-tight">
+              Hi 🖐🏻 <br />
+
+              I'm
+              <span class="text-blue-600"> Amany Mohamed </span>
+            </h2>
+
+            <h3 class="text-2xl mt-4 mb-8 text-gray-600">
+              Front-End Developer
+            </h3>
+
+            <p class="text-lg text-gray-700 mb-8">
+              Passionate about building responsive, modern and user-friendly
+              websites using HTML, CSS, JavaScript and Tailwind CSS.
+            </p>
+
+            <a
+              href="cv.pdf"
+              download
+              class="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition"
+            >
+              Download CV
+            </a>
+          </div>
+
+          <div>
+            <img
+              src="assets/amany.jpg"
+              alt="Amany"
+              class="w-80 h-80 rounded-full object-cover shadow-2xl border-8 border-white"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- About Section -->
+
+      <section id="about" class="py-20">
+        <div class="max-w-6xl mx-auto px-6">
+          <h2 class="text-4xl font-bold text-center mb-12">About Me</h2>
+
+          <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="text-center">
+              <img
+                src="assets/amany.jpg"
+                alt="my photo"
+                class="w-72 h-72 object-cover rounded-full mx-auto shadow-xl"
+              />
+            </div>
+
+            <div>
+              <h3 class="text-3xl font-bold mb-3">Amany Mohamed</h3>
+
+              <span class="text-blue-600 text-xl font-semibold">
+                Front-End Developer
+              </span>
+
+              <p class="mt-5 text-gray-600 leading-8">
+                I'm a Computer Science student at Minia University passionate
+                about Front-End Development. I enjoy creating responsive and
+                user-friendly websites using HTML, CSS, JavaScript, and Tailwind
+                CSS. I'm always eager to learn new technologies and improve my
+                skills.
+              </p>
+
+              <div class="grid grid-cols-2 gap-4 mt-8">
+                <p>
+                  <strong>Name:</strong>
+                  Amany Mohamed
+                </p>
+
+                <p>
+                  <strong>Age:</strong>
+                  19
+                </p>
+
+                <p>
+                  <strong>University:</strong>
+                  Minia University
+                </p>
+
+                <p>
+                  <strong>Faculty:</strong>
+                  Computer Science
+                </p>
+
+                <p>
+                  <strong>Major:</strong>
+                  Information Systems
+                </p>
+
+                <p>
+                  <strong>Location:</strong>
+                  Egypt
+                </p>
+
+                <p>
+                  <strong>Email:</strong>
+                  amanymohamedop0@gmail.com
+                </p>
+
+                <p>
+                  <strong>Phone:</strong>
+                  +20 122 636 317 2
+                </p>
+              </div>
+
+              <a
+                href="cv.pdf"
+                download
+                class="inline-block mt-8 bg-blue-600 text-white px-7 py-3 rounded-lg hover:bg-blue-700 transition"
+              >
+                Download CV
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+
+      <section id="skills" class="py-20 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-6">
+          <h2 class="text-4xl font-bold text-center mb-12">My Skills</h2>
+
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div
+              class="bg-white p-6 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition"
+            >
+              <i class="fa-brands fa-html5 text-5xl text-orange-500 mb-4"></i>
+
+              <h3 class="font-semibold text-xl">HTML</h3>
+            </div>
+
+            <div
+              class="bg-white p-6 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition"
+            >
+              <i class="fa-brands fa-css3-alt text-5xl text-blue-500 mb-4"></i>
+
+              <h3 class="font-semibold text-xl">CSS</h3>
+            </div>
+
+            <div
+              class="bg-white p-6 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition"
+            >
+              <i class="fa-brands fa-js text-5xl text-yellow-400 mb-4"></i>
+
+              <h3 class="font-semibold text-xl">JavaScript</h3>
+            </div>
+
+            <div
+              class="bg-white p-6 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition"
+            >
+              <i class="fa-brands fa-github text-5xl mb-4"></i>
+
+              <h3 class="font-semibold text-xl">GitHub</h3>
+            </div>
+
+            <div
+              class="bg-white p-6 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition"
+            >
+              <i class="fa-solid fa-wind text-5xl text-cyan-500 mb-4"></i>
+
+              <h3 class="font-semibold text-xl">Tailwind CSS</h3>
+            </div>
+
+            <div
+              class="bg-white p-6 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition"
+            >
+              <i
+                class="fa-brands fa-bootstrap text-5xl text-purple-600 mb-4"
+              ></i>
+
+              <h3 class="font-semibold text-xl">Bootstrap</h3>
+            </div>
+
+            <div
+              class="bg-white p-6 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition"
+            >
+              <i class="fa-brands fa-git-alt text-5xl text-red-500 mb-4"></i>
+
+              <h3 class="font-semibold text-xl">Git</h3>
+            </div>
+
+            <div
+              class="bg-white p-6 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition"
+            >
+              <i class="fa-solid fa-database text-5xl text-green-600 mb-4"></i>
+
+              <h3 class="font-semibold text-xl">SQL</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Education Section -->
+
+      <section id="education" class="py-20">
+        <div class="max-w-5xl mx-auto px-6">
+          <h2 class="text-4xl font-bold text-center mb-12">Education</h2>
+
+          <div
+            class="bg-white shadow-xl rounded-xl p-8 border-l-8 border-blue-600"
+          >
+            <h3 class="text-2xl font-bold">Minia University</h3>
+
+            <p class="text-lg mt-3">Faculty of Computer Science</p>
+
+            <p class="text-gray-600 mt-2">Information Systems Department</p>
+
+            <p class="mt-4 font-semibold">2024 - 2028</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+
+      <section id="contact" class="py-20 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-6">
+          <h2 class="text-4xl font-bold text-center mb-12">Contact Me</h2>
+
+          <div class="grid md:grid-cols-2 gap-10">
+            <div>
+              <h3 class="text-2xl font-bold mb-6">Get In Touch</h3>
+
+              <p class="mb-4">
+                <strong>Email:</strong>
+                amanymohamedop0@gmail.com
+              </p>
+
+              <p class="mb-4">
+                <strong>Phone:</strong>
+                +20 122 636 317 2
+              </p>
+
+              <p>
+                <strong>Location:</strong>
+                Egypt
+              </p>
+            </div>
+
+            <form class="space-y-5">
+              <input
+                type="text"
+                placeholder="Your Name"
+                class="w-full p-3 border rounded-lg focus:outline-blue-500"
+              />
+
+              <input
+                type="email"
+                placeholder="Your Email"
+                class="w-full p-3 border rounded-lg focus:outline-blue-500"
+              />
+
+              <textarea
+                rows="5"
+                placeholder="Your Message"
+                class="w-full p-3 border rounded-lg focus:outline-blue-500"
+              ></textarea>
+
+              <button
+                class="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+
+      <footer class="bg-gray-900 text-white py-10">
+        <div class="text-center">
+          <h3 class="text-3xl font-bold">Amany Mohamed</h3>
+
+          <p class="mt-3 text-gray-300">Front-End Developer</p>
+
+          <div class="flex justify-center gap-8 text-3xl mt-8">
+            <a
+              href="https://www.facebook.com/AmanyMohamed1529"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hover:text-blue-500 transition"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/amanymsadky/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hover:text-blue-500 transition"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a
+              href="https://github.com/AmanyMohamed-eng"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hover:text-gray-400 transition"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+
+          <p class="mt-8 text-gray-400">© 2026 All Rights Reserved.</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
